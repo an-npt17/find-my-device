@@ -16,8 +16,7 @@ pub fn ensure_autostart() -> Result<(), Box<dyn Error>> {
         Name=Location Tracker\n\
         Exec={}\n\
         Hidden=false\n\
-        NoDisplay=false\n\
-        X-GNOME-Autostart-enabled=true\n",
+        NoDisplay=false\n",
         current_exe
     );
 
